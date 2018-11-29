@@ -1,0 +1,1 @@
+char x = input.next().charAt(0);
