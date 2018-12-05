@@ -37,6 +37,7 @@ public class TextGame {
 		System.out.println("What species are you?");
 		System.out.println("Are you (1) human (2) penguin (3) demon");
 		answer = input.nextInt();
+		//first choice 1 consequence
 		if (answer == 1) {
 			answer = 0;
 			System.out.println("Great! Let's get started!");
@@ -44,6 +45,7 @@ public class TextGame {
 			System.out.println("What is your favorite food?");
 			System.out.println("(1) pizza (2) cheeseburger (3) souls");
 			answer=input.nextInt();
+			//second choice 1 consequence
 			if (answer == 1) {
 				System.out.println(" ___");
 				System.out.println("(  ^>");
@@ -158,7 +160,7 @@ public class TextGame {
 									+ "me from my eternal prison.");
 							System.out.println("*you see white tendrils wrapping you up*");
 							System.out.println("*the tendrils start to burn your skin*");
-							System.out.println("I WILL NOW IMPOSE MY WILL ON YOUR PITIFUL REALM");
+							System.out.println("I will now impose my will on this pitiful realm");
 							System.out.println("*you lived out the rest of your pitiful life"
 									+ " as a pawn of Queen Holow*");
 							System.out.println("GAME OVER");
@@ -197,6 +199,7 @@ public class TextGame {
 					System.out.println("GAME OVER");
 					x = 0;
 				}
+				//second choice 2 consequence
 			}
 			else if (answer == 2) {
 				System.out.println(" ___");
@@ -211,7 +214,7 @@ public class TextGame {
 				System.out.println("GAME OVER?");
 				x = 0;
 			}
-
+			//second choice 3 consequence
 			else if (answer == 3) {
 				System.out.println(" ___");
 				System.out.println("(  o>");
@@ -282,6 +285,7 @@ public class TextGame {
 				}
 				
 			}
+			//first choice 2 consequence
 		}
 		else if (answer == 2) {
 			System.out.println("Wait a moment...");
@@ -292,6 +296,7 @@ public class TextGame {
 			System.out.println("GAME OVER");
 			x = 0;
 		}
+		//first choice 3 consequence
 		else if (answer == 3) {
 			System.out.println("*you hear strange voices calling all around you*");
 			System.out.println(" ___");
